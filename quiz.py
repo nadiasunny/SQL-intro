@@ -53,6 +53,7 @@ Any other commands will be interpreted as a SQL query and executed against the
 problem set database."""
 
 # SQL to get a list of all tables for \dt command
+#SELECT * FROM salespeople;
 SQL_ALL_TABLES = """
 SELECT
   n.nspname as "Schema",
